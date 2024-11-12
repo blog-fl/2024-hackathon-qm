@@ -22,4 +22,5 @@ entity Employee
 {
     key ID : UUID;
     team : Association to one Team;
+    name : String(100);
 }
